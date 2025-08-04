@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda Online</h1>
+        <input type="text" id="buscador" placeholder="Buscar productos..." oninput="buscarProductos()">
+        <nav>
+            <button id="menu-btn">Categorías</button>
+            <ul id="menu-deslizable" class="oculto"></ul>
+        </nav>
+    </header>
+    <main>
+        <div id="productos" class="productos"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Aluminio Guillen</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
