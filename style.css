@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header input {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+nav {
+    position: relative;
+}
+
+#menu-btn {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+#menu-deslizable {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 3em;
+    left: 0;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    display: none;
+}
+
+#menu-deslizable li {
+    border-bottom: 1px solid #555;
+}
+
+#menu-deslizable li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em;
+}
+
+#menu-deslizable li a:hover {
+    background-color: #555;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 1em;
+    width: calc(33% - 2em);
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+
+.exito {
+    color: green;
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+
+.oculto {
+    display: none;
+}
